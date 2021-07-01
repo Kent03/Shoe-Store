@@ -1346,10 +1346,35 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .header_two {
-    padding: 18px 0;
+    position: relative;
+    height: 67px;
+    top: 0;
     background: #1c1d1f;
   }
 }
+@media only screen and (max-width: 767px){
+  *{
+    padding:0
+  }
+
+.header_account_area {
+    transform: translate(31px, -3px);
+}
+
+.header2_container {}
+
+.logo h2 {
+    font-size: 19px;
+    transform: translate(-46px, 2px);
+}
+
+h2 {}
+
+h2 {}
+}
+
+
+
 
 .header2_container {
   display: flex;
